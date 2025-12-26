@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>smile shop</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin:0;
+      padding: 40;
+    }
+
+    header, section, footer {
+      padding: 40px;
+	  padding-bottom:80px;
+    }
+
+    header {
+      background: #000000ff;
+      color: white;
+    }
+
+    nav a {
+      color: rgba(243, 231, 5, 1);
+      margin-right: 15px;
+      text-decoration:solid;
+      font-weight: bold;
+    }
+	
+    .hero {
+      display: flex;
+      gap: 80px;
+      align-items:start;
+    }
+
+    .hero img {
+      max-width: 60%;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .product {
+      border: 2px solid #0fb303ff;
+      padding: 50px;
+      text-align: center;
+    }
+
+    .product img {
+      width: 100%;
+      height: 150px;
+      object-fit: contain;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 30px;
+    }
+
+
+  </style>
+</head>
+
+<body>
+
+<!-- Main HEADER  -->
+<header>
+  <nav>
+    <a style="font-size: 40px;border-radius:10px;text-align: center;color: white;"href="index.html">Home</a><br><br>
+    <a style="font-size: 25px;border-radius:10px;text-align: center;color: rgb(19, 235, 80);"href="signin.html">Login/Sign up</a>
+  </nav>
+    <h1 style="text-align: center;color: yellow;font-size: 50px;">SHOP-AURA</h1>
+  <nav>
+	<h4  style="text-align: center;">Welcome to our all in one category store</h4> <p  style="text-align: center;">We provide you friendly experience</p><br><hr>
+<br>
+    <a style="background-color: rgba(43, 0, 255, 0.44);border-radius:5px;font-size: 45px;"href="shop.html">View Prosucts</a>
+
+	<!--button to click on shop-->
+    <a style="background-color: rgba(43, 0, 255, 0.44);font-size: 45px;" href="cart.html"></a>
+  </nav>
+</header>
+<hr>
+<!--Video sample as slider-->
+<div style="text-align:center; margin-top:40px;">
+  <video controls autoplay muted playsinline
+         style="width:70%; max-width:800px;">
+      <source src="Brand Root _ Multi-Brand Fashion Store _ Sirsa _ Promotional Video ad.mp4" type="video/mp4">
+  </video>
+</div>
+<br>
+<br>
+<hr>
+
+
+<!-- Header below section-->
+<section class="hero">
+  <div>
+    <h2 style="text-align: top;font-size: 70px;">All IN ONE STORE</h2>
+    <p>Welcome to shop with smile store,</p><p> where comfort meets style.We are a modern shopping platform focused on providing</p><p> high-quality furniture and home essentials</p> at affordable prices. Our goal is</p><p>to make online shopping easy, reliable, and enjoyable for everyone.</p>
+    <a href="shop.html">Shop Now</a>
+  </div>
+  <div>
+    <img src="https://i.pinimg.com/1200x/ea/c0/74/eac0740a04efab95adb5fa8c1b332e5a.jpg">
+  </div>
+</section>
+
+<!-- Products ki categories-->
+<section>
+  <h2 style="text-align: center;background-color: black;padding-top: 20px;padding-bottom: 20px;border-radius: 10px;color:antiquewhite;font-size:40px;">Our Main Products</h2>
+
+  <div class="products">
+    <div class="product">
+      <img src="https://i.pinimg.com/1200x/5c/6d/fb/5c6dfb1172484bf42a27793992fcf00f.jpg">
+      <h3>Electronics</h3>
+      <p>Available on cheap prices</p>
+    </div>
+
+    <div class="product">
+      <img src="https://i.pinimg.com/1200x/bf/9a/e7/bf9ae7326054fb49adb11a04a17c8e6b.jpg">
+      <h3>A lot of Books</h3>
+      <p>National & international authors books</p>
+    </div>
+
+    <div class="product">
+      <img src="https://i.pinimg.com/736x/51/4d/22/514d22430ca8a0badf0598751eef49b8.jpg">
+      <h3>Garments</h3>
+      <p>All your favoutite brands are here</p>
+    </div>
+  </div>
+</section>
+
+<!-- CHOOSE US  -->
+<section>
+  <h2>Why Choose Us</h2>
+  <div class="features">
+    <div>
+      <img src="images/truck.svg">
+      <h3>Fast Shipping</h3>
+      <p>Quick and safe delivery.</p>
+    </div>
+
+    <div>
+      <img src="images/support.svg">
+      <h3>24/7 Support</h3>
+      <p>Always here to help.</p>
+    </div>
+
+    <div>
+      <img src="images/return.svg">
+      <h3>Easy Returns</h3>
+      <p>No stress returns.</p>
+    </div>
+  </div>
+</section>
+
+

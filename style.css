@@ -1,0 +1,228 @@
+/* =========================
+   GOOGLE FONT
+========================= */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+/* =========================
+   BODY & BASIC
+========================= */
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 28px;
+  color: #6a6a6a;
+  background-color: #eff2f1;
+  overflow-x: hidden;
+}
+
+a {
+  color: #2f2f2f;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+.custom-navbar {
+  background-color: #3b5d50;
+  padding: 20px;
+}
+
+.navbar-brand {
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+}
+
+.custom-navbar a {
+  color: white;
+  margin-right: 15px;
+  opacity: 0.6;
+}
+
+.custom-navbar a:hover,
+.custom-navbar .active a {
+  opacity: 1;
+}
+
+/* =========================
+   HERO SECTION
+========================= */
+.hero {
+  background-color: #3b5d50;
+  padding: 80px 20px;
+  color: white;
+}
+
+.hero h1 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  color: rgba(255,255,255,0.6);
+}
+
+.hero img {
+  max-width: 100%;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+.btn {
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 30px;
+  background-color: #2f2f2f;
+  color: white;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background-color: #222;
+}
+
+.btn-secondary {
+  background-color: #f9bf29;
+  color: #2f2f2f;
+}
+
+/* =========================
+   SECTION TITLES
+========================= */
+.section-title {
+  color: #2f2f2f;
+}
+
+/* =========================
+   PRODUCT SECTION
+========================= */
+.product-section {
+  padding: 70px 20px;
+}
+
+.product-item {
+  text-align: center;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  position: relative;
+}
+
+.product-item img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.product-item h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.product-item strong {
+  font-size: 18px;
+  color: #2f2f2f;
+}
+
+/* =========================
+   WHY CHOOSE US
+========================= */
+.why-choose-section {
+  padding: 70px 20px;
+}
+
+.feature {
+  margin-bottom: 30px;
+}
+
+.feature h3 {
+  font-size: 14px;
+  color: #2f2f2f;
+}
+
+.feature p {
+  font-size: 14px;
+}
+
+/* =========================
+   IMAGE GRID
+========================= */
+.imgs-grid img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+/* =========================
+   CUSTOM LIST
+========================= */
+.custom-list li {
+  list-style: none;
+  padding-left: 20px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.custom-list li::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border: 2px solid #3b5d50;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 8px;
+}
+
+/* =========================
+   BLOG SECTION
+========================= */
+.blog-section {
+  padding: 70px 20px;
+}
+
+.post-entry img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.post-entry h3 {
+  font-size: 16px;
+  color: #2f2f2f;
+}
+
+/* =========================
+   FOOTER
+========================= */
+.footer-section {
+  background-color: #ffffff;
+  padding: 80px 20px;
+}
+
+.footer-logo {
+  font-size: 32px;
+  font-weight: 600;
+  color: #3b5d50;
+}
+
+.custom-social a {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-color: #dce5e4;
+  color: #3b5d50;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 5px;
+}
+
+.custom-social a:hover {
+  background-color: #3b5d50;
+  color: white;
+}

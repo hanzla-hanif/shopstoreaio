@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cart Page</title>
+
+  <!-- Basic styling (optional but clean) -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 200px;
+    }
+
+    nav a {
+      margin-right:0px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 0px;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 0px;
+      text-align: center;
+    }
+
+    img {
+      width: 80px;
+    }
+
+    footer {
+      margin-top: 40px;
+      border-top: 1px solid #ccc;
+      padding-top: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<nav>
+  <button>
+    <a href="index.html">Home Page</a>
+  </button>
+  <button>
+    <a href="shopp.html">Products Page</a>
+
+  </button>
+</nav>
+<body style="background-color: rgba(255, 255, 255, 1);">
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <h1 style="background-color:rgb(228, 155, 9);color: rgba(255, 255, 255, 1);text-align: center;padding-top: 20px;padding-bottom: 30px;border-radius: 100px;text-decoration:double;">Your Cart</h1>
+  </header>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav style="text-align: center;background-color: black;padding-top: 20px;padding-bottom: 20px;border-radius: 10px;">
+    <a style="color:aliceblue">Your Final cart is here</a>
+  </nav>
+
+
+
+  <!-- ===== CART TABLE ===== -->
+  <table><br><br>
+    <thead>
+      <tr style="color:rgb(221, 253, 251);background-color: rgba(31, 166, 7, 1);">
+        <th>Product images</th>
+        <th>Product Names</th>
+        <th>prices</th>
+        <th>Quantity</th>
+        <th>Total</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td style="background-color: white;"><img src="https://i.pinimg.com/736x/ef/bb/17/efbb17fc0cfc2be91f2c913c66676a5f.jpg"></td>
+        <td>Digital watch</td>
+        <td>Rs.2999 </td>
+        <td>1</td>
+        <td>Rs.2999</td>
+      </tr>
+
+      <tr>
+        <td style="background-color: white;"><img src="https://img.fantaskycdn.com/12e035704d0e36f8dd25b9196f812f2a_900x.jpeg"></td>
+        <td>Handbag</td>
+        <td>Rs.1499</td>
+        <td>2</td>
+        <td>Rs.2998</td>
+      </tr>
+
+      <tr>
+        <td style="background-color: white;"><img src="https://i.pinimg.com/1200x/38/a9/9e/38a99ef27007cfae409d65c0b935c9d8.jpg"></td>
+        <td>Toy</td>
+        <td>Rs.1499</td>
+        <td>2</td>
+        <td>Rs.2998</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- ===== CART TOTAL ===== -->
+  <h3 style="text-align:right;border:3px;padding-right: 10px;">Total Amount=total sum in pkr</h3>
+  
+  <!--taking detail from user-->
+  <body>
+    <form action="index.html" method="post">
+      <label for="title" style="background-color: rgba(31, 203, 12, 1);font-size: large;font-family: 'Times New Roman', Times, serif;text-align: center;border-radius: 20px;padding: 20px;color: rgb(255, 255, 255);">Taking final details </label><br><br><br><br>
+
+        <label for="Name">Enter Name:</label><br><br>
+        <input type="text" id="Name" placeholder="Hanzla Hanif" required><br><br>
+
+        <label for="phone">Mobile number:</label><br><br>
+        <input type="tel" id="phone" placeholder="92-123-12-12-123"><br><br>
+
+        <label for="emil">Enter Email adress:</label><br><br>
+        <input type="email" id="email" placeholder="name@gmail.com" required><br><br><br><br>
+
+      <label for="title" style="background-color: rgba(31, 203, 12, 1);font-size: large;font-family: 'Times New Roman', Times, serif;text-align: center;border-radius: 20px;padding: 20px;color: #ffffffff;">Location Details</label><br><br><br><br>
+
+        <label for="Name">Enter Name:</label><br><br>
+        <input type="text" id="Name" placeholder="Hanzla Hanif" required><br><br>
+
+        <label for="country">Country name:</label><br><br>
+        <input type="text" id="country" placeholder="Pakistan" required><br><br>
+
+        <label for="province">Province:</label><br><br>
+        <input type="text" id="Name" placeholder="Punjab/KPK/BLC/Sindh" required><br><br>
+
+        <label for="district">District name:</label><br><br>
+        <input type="text" id="district" placeholder="Khanewal" required><br><br>
+
+        <label for="city">City:</label><br><br>
+        <input type="text" id="city" placeholder="city" required><br><br>
+
+        <label for="street">Exact adress in your city:</label><br><br>
+        <input type="text" id="street" placeholder="street 1 house no. 1 " required><br><br>
+
+       <input type="reset">
+       <a href="order.html" input type="submit"></a>
+
+        <button>
+          <a href="order.html">Submit</a>
+        </button>
+
+
+
+
+  <!--FOOTER-->
+  <footer>
+    <p> thanks for visiting</p>
+  </footer>
+
+</body>
+</html>
